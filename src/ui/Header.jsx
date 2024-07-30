@@ -3,9 +3,10 @@ import SearchInput from './SearchInput';
 
 function Header() {
   return (
-    <header>
+    <header className="bg-yellow-500">
       <Link to={'/'}>Fast pizza</Link>
       <SearchInput />
+      <p>Jonas</p>
     </header>
   );
 }
